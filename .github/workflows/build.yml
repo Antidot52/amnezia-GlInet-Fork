@@ -27,9 +27,9 @@ permissions:
   contents: write
 
 env:
-  owr_branch: "v24.10.2"
-  owr_commit: "cb1b656027"
-  gl_version: ${{ inputs.gl_version || 'MT6000_4.8.0' }}
+  owr_branch: "v24.10.4"
+  owr_commit: "29397011cc"
+  gl_version: ${{ inputs.gl_version || 'MT6000_4.8.3' }}
   gl_vermagic: "9469a6c8c449c47e503c05678ea1559d"
 
 jobs:
